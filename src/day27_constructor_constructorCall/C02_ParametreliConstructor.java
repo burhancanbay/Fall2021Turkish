@@ -22,7 +22,10 @@ public class C02_ParametreliConstructor {
 		
 		Car1 car5=new Car1(2020,5000);
 		System.out.println(car5.yil+" "+car5.km+" "+car5.model);
-
+		
+		System.out.println(car1.yil);
+		car1.yil=2023;
+		System.out.println(car1.yil);
 	}
 
 }
